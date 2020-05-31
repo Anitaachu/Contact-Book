@@ -1,8 +1,8 @@
 language: python
-python:
-  - "3.8"
+python: "3.8"
 
 install:
   - pip install -r requirement.txt
 scripts:
-  black --check .
+  - black --check .
+
